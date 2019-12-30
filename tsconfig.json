@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "module": "commonjs",
+        "target": "es6",
+        "lib": [
+            "esnext.asynciterable",
+            "es6",
+            "dom"
+        ],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "src/**/*.ts"
+     ],
+    "exclude": [
+        "build",
+        "node_modules"
+    ]
+}
